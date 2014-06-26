@@ -246,7 +246,7 @@ public class BrainyGame implements ActionListener, KeyListener, Runnable {
 		boolean state = false;
 		int i;
 		
-		for (i = 0; i < numberAnsweredQuest.length; i++) {
+		for (i = 0; i < numberAnsweredQuest.length;) {
 			
 			if (key == numberAnsweredQuest[i]) {
 				state = true;

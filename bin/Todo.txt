@@ -1,3 +1,0 @@
-/**
- * Put game files in a non-java text file so it's not compiled to save memory
- */
